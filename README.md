@@ -2,6 +2,10 @@
 
 Isidora Álvarez
 
+# **Link de figma**
+
+https://www.figma.com/design/ADbrbFWVOeJkBakvKcFPj6/Portafolio?node-id=99-21&p=f&t=QLJJ9BPGfWb4dOC8-0
+
 # **Descripción del Proyecto**
 
 Portafolio web interactivo que refleja mi identidad como diseñadora industrial, integrando la materialidad de la madera y el mobiliario (como el banquito zapatero y la silla de madera), la fabricación textil  de contenedores, electrónica de taller, prototipado 3D y la programación de experiencias interactivas en la web.
@@ -12,31 +16,25 @@ Portafolio web interactivo que refleja mi identidad como diseñadora industrial,
 
 **Qué tomo:** los trabajos como colección de estampillas, la jerarquía tipográfica y los filtros por categoría.
 
-**Dónde se usa en el portafolio:**
-
-* **Sección "trabajos":** cada proyecto es una estampilla con borde perforado (troquelado), una foto al centro y un pie con título y tipo de proyecto. Las estampillas están levemente inclinadas, como pegadas a mano.
-* **Hover de las estampillas:** al pasar el mouse la estampilla se endereza, sube, crece un poco y el borde se pone azul río. Con eso el clic se siente como "tomar" la estampilla para abrir el proyecto.
-* **Tipografía:** los títulos van en serif grande (Instrument Serif, como en "trabajos") y las etiquetas en mono mayúscula (DM Mono, como en "Nº01 — TRABAJOS", el código y el año de cada estampilla). El contraste entre una letra editorial y otra técnica viene de este referente.
-* **Filtros:** las píldoras "todos · mobiliario · prototipos · electrónica · web" permiten ver los proyectos por área, porque mi trabajo mezcla disciplinas igual que el de Bill Guo.
+**Dónde lo uso:** cada proyecto es una estampilla con borde perforado, una foto al centro y un pie con título y tipo de proyecto. Las estampillas están levemente inclinadas, como si estuvieran pegadas a mano.
+> Hover de las estampillas: al pasar el mouse la estampilla se endereza, sube, crece un poco y el borde se pone azul río. Con eso el clic se siente como "tomar" la estampilla para abrir el proyecto.
 * **Lo que cambié:** él muestra las estampillas en grilla. Yo las dejé en una sola fila con scroll horizontal, para que se recorran como una tira de estampillas.
 
 ### Cindy Ly ([cindyly.design](https://www.cindyly.design/)): navegación visual y lúdica tipo escritorio
 
 **Qué tomo:** la portada con un objeto interactivo, el dock flotante y los elementos que se pueden mover.
 
-**Dónde se usa en el portafolio:**
-
+**Dónde lo uso:**
 * **Portada:** a la derecha del titular está la ventana `pieza-interactiva`, que muestra la foto de un proyecto. El botón "ver otra ↻" la cambia por otra y, al hacer clic en la foto, se abre ese proyecto. Es el "objeto para jugar" de entrada.
-* **Dock flotante:** abajo de la pantalla hay un dock fijo con tres accesos (trabajos, sobre mí y contacto). Se marca en azul según la sección en que estás y muestra el nombre al pasar el mouse. En mobile reemplaza al menú.
-* **Elementos arrastrables:** en la portada y en "sobre mí" las ventanas (`notas.txt`, `sobre-mi.txt`, `contacto`, `explorando.txt`, `fuera-del-taller.txt`) se pueden arrastrar con el mouse o el dedo, como las fotos y stickers de su sitio.
-* **Lo que no tomé:** el llavero colgante de su portada. Lo descarté porque se parecía demasiado a su trabajo (ver "Uso de IA").
+  > Dock flotante: abajo de la pantalla hay un dock fijo con tres accesos (trabajos, sobre mí y contacto). Se marca en azul según la sección en que estás y muestra el nombre al pasar el mouse. En mobile reemplaza al menú.
+  > Elementos arrastrables: en la portada y en "sobre mí" las ventanas (`notas.txt`, `sobre-mi.txt`, `contacto`, `explorando.txt`, `fuera-del-taller.txt`) se pueden arrastrar con el mouse o el dedo, como las fotos y stickers de su sitio.
+  > Lo que no tomé: el llavero colgante de su portada. Lo descarté porque se parecía demasiado a su trabajo.
 
 ### Feather Computer ([feather.computer](https://feather.computer/)): organización táctil de espacio y archivos
 
 **Qué tomo:** la interactividad de la página, cómo se mueven las cosas y la idea de ordenar el contenido como archivos en un escritorio.
 
-**Dónde se usa en el portafolio:**
-
+**Dónde lo uso:**
 * **Contenido como archivos:** cada bloque de texto es una ventana con nombre de archivo en la barra superior (`notas.txt`, `sobre-mi.txt`, `descripcion.txt`, `foto-01.jpeg`, `boceto-01.jpg`). Las habilidades también son "archivos": `madera.txt`, `prototipado.txt`, `web.txt`, `electronica.txt`.
 * **Barra de menú tipo sistema operativo:** arriba hay una barra con mi nombre, los enlaces y un reloj con la fecha y la hora, como la barra de un computador.
 * **Movimiento:** las ventanas se pueden tomar y soltar, se traen al frente al tocarlas y vuelven a su lugar con doble clic. Al hacer scroll los elementos aparecen de forma suave y las páginas cambian con un fundido.
@@ -60,11 +58,6 @@ Estos referentes los sumé para la versión 2, más cercana a la estética Y2K y
 | Sitereel — [sitereel.ai](https://sitereel.ai) | Diseños con vista previa y el prompt de IA para generarlos | *por completar* |
 
 > Nota: el portafolio está hecho en HTML, CSS y JavaScript sin frameworks. De estas librerías tomé ideas visuales y de movimiento, no código: no usé React ni Tailwind.
-
-
-# **Link del Proyecto**
-
-Figma: https://www.figma.com/design/ADbrbFWVOeJkBakvKcFPj6/Portafolio?node-id=13-2&t=e0T13zWepxYbe2lY-1
 
 # **Uso de IA**
 
@@ -91,17 +84,16 @@ Figma: https://www.figma.com/design/ADbrbFWVOeJkBakvKcFPj6/Portafolio?node-id=13
 > Banca zapatero
 > Banca de madera
 > Lampara
-> Intervención Artística
+> sinte modular
 > Silla de madera
 > Bolso
-> Sinte
+> Sinte 
 > Comedero para mascotas
-> Interacción Digital: 
- > multirealidades
- > contrapresion
- > gestos: wisin y yandel
- > traductor de bits
- 
+> Interacción Digital:
+> Multirealidades
+> contrapresion
+> traductor de bits
+> ave
 
 # **Tipografias**
 
@@ -113,6 +105,15 @@ Figma: https://www.figma.com/design/ADbrbFWVOeJkBakvKcFPj6/Portafolio?node-id=13
 
 
 # **Actualización post Avance 1**
+
+### Versión 2: cambio de diseño
+
+Después del Avance 1 hice una **versión 2** del portafolio y cambié el diseño hacia una estética más **Y2K**. Ahora la interfaz se arma con ventanas flotantes estilo macOS clásico, con barra superior, botones y nombre de archivo (`notas.txt`, `sobre-mi.txt`). También sumé un dock flotante para navegar, destellos y etiquetas tipo píldora.
+
+Lo que **mantuve** fueron las estampillas de los proyectos, con su borde perforado, porque son la base de cómo quiero mostrar mis trabajos. En esta versión van todas en una sola fila con scroll horizontal.
+
+# **Nueva paleta de colores**
+<img width="965" height="295" alt="image" src="https://github.com/user-attachments/assets/6cb5d04f-e461-40c3-b96c-7e92e901152f" />
 
 ### Feedback aplicado
 
@@ -132,13 +133,11 @@ La profesora y la rúbrica del curso piden un desarrollo **interactivo y web fun
 
 Un PDF es estático y no puede mostrar nada de esto. Adaptar el sitio para que se vea bien impreso o exportado significaría diseñar pensando en un formato que el encargo no pide y que va en contra de lo interactivo del proyecto. Por eso preferí dedicar el tiempo a que la experiencia web funcione bien en desktop y en mobile.
 
-### Versión 2: cambio de diseño
-
-Después del Avance 1 hice una **versión 2** del portafolio y cambié el diseño hacia una estética más **Y2K**. Ahora la interfaz se arma con ventanas flotantes estilo macOS clásico, con barra superior, botones y nombre de archivo (`notas.txt`, `sobre-mi.txt`). También sumé un dock flotante para navegar, destellos y etiquetas tipo píldora.
-
-Lo que **mantuve** fueron las estampillas de los proyectos, con su borde perforado, porque son la base de cómo quiero mostrar mis trabajos. En esta versión van todas en una sola fila con scroll horizontal.
-
 ### Uso de IA
 
 Hasta esta fecha usé IA solo como **soporte técnico para programar y calibrar las estampillas de los proyectos**.Ya que anterior mente tenia las estampillas en 3 filas y no me gustaba como se veia. El objetivo era que se movieran horizontalmente de forma fluida, en una sola fila, con el mouse, la rueda y el touch. La dirección de arte, la estructura del sitio, la selección de proyectos y las decisiones de diseño son mías.
+
+<img width="373" height="582" alt="image" src="https://github.com/user-attachments/assets/b7d48b51-0b16-4b87-b250-bc4fd9b2d51f" />
+
+<img width="837" height="495" alt="image" src="https://github.com/user-attachments/assets/f2e5ee2f-5978-4862-9e4f-a2d1b6227f07" />
 
