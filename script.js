@@ -154,10 +154,10 @@
       anio: "2025",
       tipo: "objeto / madera",
       cats: ["prototipos"],
-      portada: "comedero.jpeg",
+      portada: "comedero3.jpeg",
       foco: "50% 50%",
       materiales: "madera",
-      proceso: ["comedero4.jpeg", "comedero3.jpeg", "comedero2.jpeg", "comedero.jpeg"],
+      proceso: ["comedero4.jpeg", "comedero2.jpeg", "comedero.jpeg"],
       creditos: [],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
