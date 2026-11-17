@@ -70,10 +70,10 @@
       anio: "2025",
       tipo: "mobiliario / prototipo",
       cats: ["mobiliario", "prototipos"],
-      portada: "banco_zapatero.jpeg",
+      portada: "banco_zapatero3.jpeg",
       foco: "50% 50%",
       materiales: "madera",
-      proceso: ["banco_zapatero.jpeg", "banco_zapatero2.jpeg", "banco_zapatero3.jpeg"],
+      proceso: ["banco_zapatero.jpeg", "banco_zapatero2.jpeg"],
       creditos: [{ nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
