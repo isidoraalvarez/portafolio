@@ -478,12 +478,12 @@
       var sig = PROYECTOS[(indice + 1) % PROYECTOS.length];
       var etiquetas = ["01 — problema", "02 — proceso", "03 — resultado"];
 
-      var heroRepetido = p.portada && p.proceso && p.proceso.indexOf(p.portada) !== -1;
-      var hero = heroRepetido ? "" : '<figure class="detalle__hero">' + (p.portada
+      var hero = '<figure class="detalle__hero">' + (p.portada
         ? '<img src="' + RUTA + esc(p.portada) + '" alt="' + esc(p.titulo) + '" data-d-hero' + foco(p) + ">"
         : '<span class="mono">[imagen principal · por definir]</span>') + "</figure>";
 
-      var fotos = p.proceso && p.proceso.length ? p.proceso : [null, null, null, null];
+      var soloProceso = (p.proceso || []).filter(function (f) { return f !== p.portada; });
+      var fotos = soloProceso.length ? soloProceso : [null, null, null, null];
       var proceso = fotos.map(function (f, i) {
         var n = dosDigitos(i + 1);
         var visual = f
