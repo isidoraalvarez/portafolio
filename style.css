@@ -822,18 +822,22 @@ html.con-modal .dock { opacity: 0; pointer-events: none; transform: translate(-5
 
 .detalle__hero {
   margin-top: 32px;
-  height: min(62vh, 702px);
-  display: grid;
-  place-items: center;
-  background: var(--elusion);
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .detalle__hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: min(75vh, 760px);
+  border-radius: 4px;
   transition: opacity .3s ease;
+}
+.detalle__hero:not(:has(img)) {
+  height: min(62vh, 702px);
+  align-items: center;
+  background: var(--elusion);
 }
 .detalle__hero img.cambiando { opacity: 0; }
 .detalle__hero .mono { background: var(--plata); padding: 4px 8px; }
@@ -883,15 +887,16 @@ a.creditos__link:hover { text-decoration: underline; }
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
 }
-.proceso__boceto { flex: none; width: 290px; scroll-snap-align: start; }
+.proceso__boceto { flex: none; width: auto; scroll-snap-align: start; }
+.proceso__boceto .tb { width: 0; min-width: 100%; }
 .proceso__visual {
   height: 225px;
   display: grid;
   place-items: center;
-  background: var(--elusion);
   overflow: hidden;
 }
-.proceso__visual img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; cursor: zoom-in; }
+.proceso__visual img { display: block; height: 225px; width: auto; max-width: none; cursor: zoom-in; }
+.proceso__visual:not(:has(img)) { width: 290px; background: var(--elusion); }
 .proceso__boceto.activo { border-color: var(--rio); }
 .proceso__etiqueta {
   padding: 4px 8px;
@@ -994,7 +999,9 @@ main { animation: entrar .6s var(--ease) backwards; }
   .win--detalle { max-height: calc(100svh - 24px); }
   .detalle__cuerpo { padding: 22px 18px 28px; }
   .metadatos { grid-template-columns: 1fr 1fr; gap: 8px; }
-  .detalle__hero { height: 46vh; }
-  .proceso__boceto { width: 240px; }
+  .detalle__hero img { max-height: 60vh; }
+  .detalle__hero:not(:has(img)) { height: 46vh; }
   .proceso__visual { height: 190px; }
+  .proceso__visual img { height: 190px; }
+  .proceso__visual:not(:has(img)) { width: 240px; }
 }
