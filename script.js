@@ -18,7 +18,7 @@
       foco: "50% 50%",
       materiales: "HTML, CSS, JS",
       proceso: [],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -32,7 +32,7 @@
       foco: "50% 50%",
       materiales: "HTML, CSS, JS",
       proceso: [],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -46,7 +46,7 @@
       foco: "50% 50%",
       materiales: "HTML, CSS, JS",
       proceso: [],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Camila", github: "https://github.com/Estrabismx" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -60,7 +60,7 @@
       foco: "50% 50%",
       materiales: "HTML, CSS, JS, MQTT",
       proceso: [],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -74,7 +74,7 @@
       foco: "50% 50%",
       materiales: "madera",
       proceso: ["banco_zapatero2.jpeg", "banco_zapatero3.jpeg"],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -88,7 +88,7 @@
       foco: "50% 50%",
       materiales: "acrílico, impresión 3D, PCB, madera",
       proceso: ["sin_te.jpeg", "sintes.jpeg", "sintess.jpeg", "sinte.jpeg", "sinte2.jpeg"],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Camila", github: "https://github.com/Estrabismx" }, { nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -102,7 +102,7 @@
       foco: "50% 50%",
       materiales: "cartón, electrónica",
       proceso: [],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Camila", github: "https://github.com/Estrabismx" }, { nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -116,7 +116,7 @@
       foco: "50% 50%",
       materiales: "madera",
       proceso: [],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -130,7 +130,7 @@
       foco: "50% 50%",
       materiales: "madera",
       proceso: ["banca2.jpeg", "plano_banca.jpeg"],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Camila", github: "https://github.com/Estrabismx" }, { nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -144,7 +144,7 @@
       foco: "50% 50%",
       materiales: "madera",
       proceso: ["ave2.jpeg", "ave3.jpeg", "ave4.jpeg"],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Camila", github: "https://github.com/Estrabismx" }, { nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -158,7 +158,7 @@
       foco: "50% 50%",
       materiales: "madera",
       proceso: ["comedero2.jpeg", "comedero3.jpeg", "comedero4.jpeg"],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     },
     {
@@ -172,7 +172,7 @@
       foco: "50% 50%",
       materiales: "[materiales]",
       proceso: ["lampara2.jpeg", "lampara3.jpeg", "lampara4.jpeg"],
-      creditos: [{ nombre: "[Nombre compañero/a]", github: "[Link GitHub]" }],
+      creditos: [{ nombre: "Camila", github: "https://github.com/Estrabismx" }, { nombre: "Dayana", github: "https://github.com/dayanapanitrur" }],
       bloques: ["[qué problema aborda · por escribir]", "[cómo lo desarrollé · por escribir]", "[qué resultó · por escribir]"]
     }
   ];
@@ -487,7 +487,7 @@
         var n = dosDigitos(i + 1);
         var visual = f
           ? '<img src="' + RUTA + esc(f) + '" alt="' + esc(p.titulo) + ", boceto " + n +
-            '" loading="lazy" decoding="async" draggable="false" data-d-foto="' + esc(f) + '">'
+            '" decoding="async" draggable="false" data-d-foto="' + esc(f) + '">'
           : '<span class="proceso__etiqueta">[boceto / croquis ' + n + "]</span>";
         return '<article class="win proceso__boceto">' + barraWin("boceto-" + n + ".jpg") +
                '<div class="proceso__visual">' + visual + "</div></article>";
