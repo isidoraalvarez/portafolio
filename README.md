@@ -27,6 +27,8 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 
 **Tipografías.** El sitio usa cuatro tipografías, todas de Google Fonts con licencia SIL Open Font License 1.1.
 
+<img width="495" height="706" alt="image" src="https://github.com/user-attachments/assets/8c7f6977-1ecc-4710-8015-ba92bd0dbf79" />
+
 | Tipografía | Dónde la uso |
 |---|---|
 | [Dancing Script](https://fonts.google.com/specimen/Dancing+Script) (700) | Títulos grandes en cursiva pixelada ("hola, diseño para lo que se *usa / habita*", "trabajos", el nombre de cada proyecto, "sobre mí y contacto" y "contacto"). La convierto en píxeles cuadrados con código, y el texto real queda en la página para los lectores de pantalla |
@@ -35,6 +37,8 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 | [DM Sans](https://fonts.google.com/specimen/DM+Sans) | Textos de lectura, como la presentación de la portada, la bio y la trayectoria |
 
 **Paleta.** Fondo blanco con tonos de azul, celeste y beige, a partir de una paleta de referencia que me gustó. Le da más blanco y aire a la página.
+
+<img width="770" height="205" alt="image" src="https://github.com/user-attachments/assets/cc6b03aa-cf16-49bb-b72e-45518c543ad7" />
 
 | Color | Hex | Dónde lo uso |
 |---|---|---|
@@ -98,9 +102,9 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 
 ## 2. Uso de IA
 
-**Herramientas.** Claude (Claude Code), para programar la página y para armar en Figma la interactividad de cómo se ven los trabajos.
+**Herramientas.** 
 
-**Dónde no usé IA.** [indica las partes que hiciste sin IA, por ejemplo la selección de proyectos, las fotos o los textos de cada trabajo]
+**Dónde no usé IA.** 
 
 Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, la paleta, la estética, qué se quedaba y qué se descartaba, y cada corrección pedida después de revisar el resultado.
 
@@ -129,6 +133,10 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
   - [ajusta o agrega lo que decidiste tú]
 
 ### Transiciones de las imágenes en la descripción de cada proyecto
+
+<img width="1210" height="785" alt="image" src="https://github.com/user-attachments/assets/5a34f43f-000f-4bb5-a720-0ae8dcf887f6" />
+
+<img width="1243" height="782" alt="image" src="https://github.com/user-attachments/assets/39a9265e-8f1f-4ea4-9e6e-cc1738196162" />
 
 - **Prompt 1.** "En la ficha de cada proyecto quiero que las fotos de proceso se vean como un acordeón. Al pasar el mouse o hacer clic, la foto elegida se abre a color y las demás quedan angostas y en gris, con una transición suave."
 - **Prompt 2.** "Cuando abro un proyecto desde la lista, quiero que la ventana crezca desde la fila donde hice clic, en vez de aparecer de golpe."
