@@ -1,13 +1,5 @@
 # Bitácora Isidora Álvarez
 
-
-## Links
-
-| | Link |
-|---|---|
-| Figma | [Portafolio-Isidora-Alvarez](https://www.figma.com/design/ADbrbFWVOeJkBakvKcFPj6/Portafolio-Isidora-Alvarez) |
-| Sitio en GitHub Pages | [isidoraalvarez.github.io/portafolio](https://isidoraalvarez.github.io/portafolio/) |
-| Repositorio | [github.com/isidoraalvarez/portafolio](https://github.com/isidoraalvarez/portafolio) |
 ## Portafolio 
 
 En mi portafolio veras los trabajos que he hecho durante la carrera de Diseño Industrial y, a través de ellos, cuenta cómo he ido creciendo como diseñadora.
@@ -18,6 +10,16 @@ Cada trabajo me enseñó algo y me llevó al siguiente. Este portafolio es mi fo
 
 ---
 
+## 1. Links
+
+| | Link |
+|---|---|
+| Figma | [Portafolio-Isidora-Alvarez](https://www.figma.com/design/ADbrbFWVOeJkBakvKcFPj6/Portafolio-Isidora-Alvarez) |
+| Sitio en GitHub Pages | [isidoraalvarez.github.io/portafolio](https://isidoraalvarez.github.io/portafolio/) |
+| Repositorio | [github.com/isidoraalvarez/portafolio](https://github.com/isidoraalvarez/portafolio) |
+
+**Páginas del sitio.** El sitio tiene dos páginas HTML enlazadas con la barra de navegación.
+
 | Página | Contenido |
 |---|---|
 | `index.html` | Portada con el titular dinámico, mi avatar y una foto mía de fondo. Desde ahí se entra a los trabajos, una lista de los 11 proyectos con filtros y la ficha de cada uno, y al contacto |
@@ -27,8 +29,6 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 
 **Tipografías.** El sitio usa cuatro tipografías, todas de Google Fonts con licencia SIL Open Font License 1.1.
 
-<img width="495" height="706" alt="image" src="https://github.com/user-attachments/assets/8c7f6977-1ecc-4710-8015-ba92bd0dbf79" />
-
 | Tipografía | Dónde la uso |
 |---|---|
 | [Dancing Script](https://fonts.google.com/specimen/Dancing+Script) (700) | Títulos grandes en cursiva pixelada ("hola, diseño para lo que se *usa / habita*", "trabajos", el nombre de cada proyecto, "sobre mí y contacto" y "contacto"). La convierto en píxeles cuadrados con código, y el texto real queda en la página para los lectores de pantalla |
@@ -37,8 +37,6 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 | [DM Sans](https://fonts.google.com/specimen/DM+Sans) | Textos de lectura, como la presentación de la portada, la bio y la trayectoria |
 
 **Paleta.** Fondo blanco con tonos de azul, celeste y beige, a partir de una paleta de referencia que me gustó. Le da más blanco y aire a la página.
-
-<img width="770" height="205" alt="image" src="https://github.com/user-attachments/assets/cc6b03aa-cf16-49bb-b72e-45518c543ad7" />
 
 | Color | Hex | Dónde lo uso |
 |---|---|---|
@@ -102,15 +100,15 @@ Después del Avance 2, además de aplicar las correcciones, decidí cambiar mi d
 
 ---
 
-## 2. Uso de IA
+## 3. Uso de IA
 
-**Herramientas.** 
+**Herramientas.** Claude (Claude Code), para programar la página y para armar en Figma la interactividad de cómo se ven los trabajos.
 
-**Dónde no usé IA.** 
+**Dónde no usé IA.** [indica las partes que hiciste sin IA, por ejemplo la selección de proyectos, las fotos o los textos de cada trabajo]
 
 Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, la paleta, la estética, qué se quedaba y qué se descartaba, y cada corrección pedida después de revisar el resultado.
 
-### Qué le pedí y qué decidí yo
+### 3.1 Qué le pedí y qué decidí yo
 
 | Etapa | Qué le pedí | Qué me entregó | Qué decidí yo |
 |---|---|---|---|
@@ -123,7 +121,7 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
 | Figma | Armar la interactividad del prototipo | Prototipo con hover y navegación entre pantallas | Revisé que se viera igual que la página |
 | README | Ordenar y redactar este README | Estructura y redacción base | Revisé y cambié los textos para que sonaran a mí |
 
-### Creación del personaje
+### 3.2 Creación del personaje
 
 - **Prompt 1.** "Quiero crear un personaje que me represente para la portada de mi portafolio. Te paso dos fotos mías para que tome mi pelo largo negro, mi cara y mi ropa, una polera negra de malla y jeans anchos oscuros. Quiero que sea animado, que respire, parpadee, salude y apunte a mis trabajos."
 - **Prompt 2.** "No me convence el estilo de caricatura. Hazlo en pixel art, que se parezca a mí, con un contorno oscuro como en las referencias de personajes pixel art que te mando."
@@ -134,14 +132,7 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
   - Mantuve mi ropa real en el avatar para que se pareciera a mí.
   - [ajusta o agrega lo que decidiste tú]
 
-<img width="195" height="415" alt="image" src="https://github.com/user-attachments/assets/d2c144a8-0933-4222-9345-d711a344eb46" />
-
-
-### Transiciones de las imágenes en la descripción de cada proyecto
-
-<img width="1210" height="785" alt="image" src="https://github.com/user-attachments/assets/5a34f43f-000f-4bb5-a720-0ae8dcf887f6" />
-
-<img width="1243" height="782" alt="image" src="https://github.com/user-attachments/assets/39a9265e-8f1f-4ea4-9e6e-cc1738196162" />
+### 3.3 Transiciones de las imágenes en la descripción de cada proyecto
 
 - **Prompt 1.** "En la ficha de cada proyecto quiero que las fotos de proceso se vean como un acordeón. Al pasar el mouse o hacer clic, la foto elegida se abre a color y las demás quedan angostas y en gris, con una transición suave."
 - **Prompt 2.** "Cuando abro un proyecto desde la lista, quiero que la ventana crezca desde la fila donde hice clic, en vez de aparecer de golpe."
@@ -152,7 +143,7 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
   - Pedí que no quedaran márgenes en ningún trabajo, porque las franjas oscuras hacían ver las fotos más chicas.
   - Pedí quitar la etiqueta "proceso de diseño y fabricación" para que las imágenes tuvieran más protagonismo. [ajusta o agrega lo que decidiste tú]
 
-### Lista de trabajos que muestra la foto
+### 3.4 Lista de trabajos que muestra la foto
 
 - **Prompt.** "Para la sección de trabajos quiero que aplique el código que te doy… quiero que sea el nombre del proyecto, pases el cursor y te salga la foto del proyecto." Le pasé el componente Skiper 53 de Skiper UI.
 - **Qué me entregó.** La lista donde cada trabajo muestra su nombre y, al pasar el cursor, se abre y aparece su foto, hecha sin React para que funcione en mi página.
@@ -160,7 +151,7 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
 
 ---
 
-## 3. Problemas y soluciones
+## 4. Problemas y soluciones
 
 | Problema | Causa | Solución |
 |---|---|---|
@@ -180,7 +171,7 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
 
 ---
 
-## 4. Aprendizajes del semestre
+## 5. Aprendizajes del semestre
 
 Este semestre aprendí que diseñar una interfaz se parece más a prototipar un objeto de lo que pensaba. En el pañol puedo probar, corregir y volver a cortar, y con el código pasó lo mismo, cada versión del portafolio fue un prototipo que tuve que mirar, usar y corregir. Pasar de Figma al código me obligó a pensar en cosas que en el diseño estático no aparecen, como qué pasa en el celular, cuánto demora en cargar una imagen o cómo se mueve un elemento cuando alguien lo toca.
 
@@ -190,7 +181,7 @@ Documentar mis trabajos en una página web me hizo ordenar mi proceso. Elegir qu
 
 ---
 
-## 5. Recursos y referentes visuales
+## 6. Recursos y referentes visuales
 
 ### Imágenes de proceso
 
@@ -231,7 +222,7 @@ Las fotos de proceso de cada trabajo están en la carpeta [imagenes](imagenes/),
 
 ---
 
-## 6. Reflexión sobre la creación de mi portafolio
+## 7. Reflexión sobre la creación de mi portafolio
 
 Crear un portafolio que tenga mi esencia fue más difícil de lo que pensé. No se trata solo de ordenar trabajos y elegir colores, sino de mirarme hacia adentro y preguntarme qué es lo que de verdad me gusta, qué me representa y qué quiero mostrar. En el camino probé muchas estéticas, paletas y formas de presentarme, y en cada cambio tuve que revisar si eso era realmente yo o solo algo que se veía bien.
 
