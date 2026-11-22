@@ -134,6 +134,9 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
   - Mantuve mi ropa real en el avatar para que se pareciera a mí.
   - [ajusta o agrega lo que decidiste tú]
 
+<img width="195" height="415" alt="image" src="https://github.com/user-attachments/assets/d2c144a8-0933-4222-9345-d711a344eb46" />
+
+
 ### Transiciones de las imágenes en la descripción de cada proyecto
 
 <img width="1210" height="785" alt="image" src="https://github.com/user-attachments/assets/5a34f43f-000f-4bb5-a720-0ae8dcf887f6" />
