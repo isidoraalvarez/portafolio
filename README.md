@@ -22,7 +22,7 @@ Cada trabajo me enseñó algo y me llevó al siguiente. Este portafolio es mi fo
 
 | Página | Contenido |
 |---|---|
-| `index.html` | Portada con el titular dinámico, mi avatar y una foto mía de fondo. Desde ahí se entra a los trabajos, una lista de los 11 proyectos con filtros y la ficha de cada uno, y al contacto |
+| `index.html` | Portada con el titular dinámico, mi avatar y una foto mía de fondo. Desde ahí se entra a los trabajos, una lista de los 12 proyectos con filtros y la ficha de cada uno, y al contacto |
 | `sobre-mi.html` | Sobre mí, herramientas, trayectoria y contacto |
 
 La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el diseño (`style.css`) y las animaciones (`script.js`). Las fotos están en la carpeta [imagenes](imagenes/) y los videos en [videos portafolio](videos%20portafolio/).
@@ -36,8 +36,6 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 | [DM Mono](https://fonts.google.com/specimen/DM+Mono) | Menú, reloj, etiquetas y categorías. Dentro de cada proyecto es la única tipografía (ficha, descripción, créditos y botones) |
 | [DM Sans](https://fonts.google.com/specimen/DM+Sans) | Textos de lectura, como la presentación de la portada, la bio y la trayectoria |
 
-<img width="537" height="760" alt="image" src="https://github.com/user-attachments/assets/bc996875-3d3f-4ee0-898a-648fa1536eeb" />
-
 **Paleta.** Fondo blanco con tonos de azul, celeste y beige, a partir de una paleta de referencia que me gustó. Le da más blanco y aire a la página.
 
 | Color | Hex | Dónde lo uso |
@@ -47,8 +45,6 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 | Celeste | `#C8D9E6` | Manchas del fondo, líneas y hover del índice |
 | Beige | `#F5EFEB` | Paneles y pie de página |
 | Blanco | `#FFFFFF` | Fondo de la página |
-
-<img width="1007" height="80" alt="image" src="https://github.com/user-attachments/assets/fbd164ea-adf8-4ed3-a5fd-512df1b7dc7a" />
 
 ---
 
@@ -67,8 +63,6 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 
 ### Avance 2 (16 de noviembre)
 
-### Avance 2 (16 de noviembre)
-
 - **Qué presenté.** [describe qué mostraste en el Avance 2]
 - **Comentarios recibidos.**
   - Hacer que las imágenes se adapten al tamaño del marco.
@@ -76,8 +70,8 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 - **Qué cambié después.**
   - **Imágenes adaptadas al marco.** Algunas fotos no calzaban con su marco, quedaban franjas grises a los lados o el objeto se veía corrido. Ahora la foto principal de cada proyecto se muestra completa en su propia proporción, y en las fotos de proceso el panel abierto toma exactamente la forma de cada foto, sin márgenes y sin recortar el objeto.
   - **Créditos de colaboradores.** En la ficha de cada proyecto agregué el apartado de créditos con el nombre y el GitHub de mis compañeras, Camila ([github.com/Estrabismx](https://github.com/Estrabismx)) y Dayana ([github.com/dayanapanitrur](https://github.com/dayanapanitrur)). También acredité a Felipe Roa como creador del proyecto original de Multirealidades y a Ann Demeulemeester como autora del diseño original de la Chair Ele, que repliqué. En los proyectos que hice sola el apartado no aparece.
-    
-### Después del Avance 2 
+
+### Después del Avance 2 (hacia el examen)
 
 Después del Avance 2, además de aplicar las correcciones, decidí cambiar mi diseño porque sentía que no me representaba. Busqué una estética más mía, con pixel art, fotos que saqué yo y una paleta de azules, y estos son los cambios que fui haciendo.
 
@@ -108,27 +102,26 @@ Después del Avance 2, además de aplicar las correcciones, decidí cambiar mi d
 
 ## 3. Uso de IA
 
-**Herramientas.** Claude, para programar la página y para armar en Figma la interactividad de cómo se ven los trabajos.
+**Herramientas.** Claude (Claude Code), para programar la página y para armar en Figma la interactividad de cómo se ven los trabajos.
 
-Usé IA en dos partes.
-
-- **Programación.** Con Claude escribí y ajusté el HTML, CSS y JavaScript de la página según mis instrucciones.
-- **Figma.** Para armar la interactividad del prototipo, en cómo se ven y se abren los trabajos.
+**Dónde no usé IA.** [indica las partes que hiciste sin IA, por ejemplo la selección de proyectos, las fotos o los textos de cada trabajo]
 
 Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, la paleta, la estética, qué se quedaba y qué se descartaba, y cada corrección pedida después de revisar el resultado.
 
+### 3.1 Qué le pedí y qué decidí yo
+
 | Etapa | Qué le pedí | Qué me entregó | Qué decidí yo |
 |---|---|---|---|
-| Avatar pixel art <img width="220" height="537" alt="image" src="https://github.com/user-attachments/assets/15c69e48-91fe-4dc6-ba75-903ab6c47214" /> | Que me ayudara a crear mi avatar en pixel art a partir de mis fotos y a animarlo | Mi avatar dibujado en una grilla de píxeles, que respira, parpadea, mira hacia el cursor y saluda | Elegí las referencias y le pedí más detalle y sombras en la cara, el pelo y la ropa |
+| Avatar pixel art | Que me ayudara a crear mi avatar en pixel art a partir de mis fotos y a animarlo | Mi avatar dibujado en una grilla de píxeles, que respira, parpadea, mira hacia el cursor y saluda | Elegí las referencias y le pedí más detalle y sombras en la cara, el pelo y la ropa |
 | Página web | Escribir el HTML, CSS y JavaScript del portafolio según mis instrucciones | El código de la página | Revisé cada versión y pedí las correcciones |
 | Portada y secciones | Que al entrar se vea solo la portada y que trabajos y Sobre mí se abran con sus botones | Las secciones que se abren como páginas | Elegí esta organización, inspirada en el portafolio de mi compañero |
 | Fondos | Usar mis fotos de la playa y del tronco de fondo, con un filtro de mi paleta y opacidad baja | La playa pixelada en la portada y el tronco en trabajos | Elegí las fotos, la paleta y qué tan suaves se veían |
-| Lista de trabajos <img width="1180" height="767" alt="image" src="https://github.com/user-attachments/assets/c307643e-706f-4208-9139-76acece8f68a" /> | Adaptar el componente Skiper 53 para que al pasar el cursor por el nombre aparezca la foto | La lista que se abre con la foto y los filtros por categoría | Pedí que mostrara solo el nombre y la foto al pasar el cursor |
+| Lista de trabajos | Adaptar el componente Skiper 53 para que al pasar el cursor por el nombre aparezca la foto | La lista que se abre con la foto y los filtros por categoría | Pedí que mostrara solo el nombre y la foto al pasar el cursor |
 | Fichas de los trabajos | Ordenar las fotos, descripciones y créditos de cada trabajo | Fichas con fotos de proceso, descripción, créditos y video | Escribí y corregí las descripciones, elegí las fotos y a quién acreditar |
-| Figma <img width="1151" height="492" alt="image" src="https://github.com/user-attachments/assets/fe112749-925a-4530-94cc-1699a496200e" /> | Armar la interactividad del prototipo | Prototipo con hover y navegación entre pantallas | Revisé que se viera igual que la página |
+| Figma | Armar la interactividad del prototipo | Prototipo con hover y navegación entre pantallas | Revisé que se viera igual que la página |
 | README | Ordenar y redactar este README | Estructura y redacción base | Revisé y cambié los textos para que sonaran a mí |
 
-### Creación del personaje
+### 3.2 Creación del personaje
 
 - **Prompt 1.** "Quiero crear un personaje que me represente para la portada de mi portafolio. Te paso dos fotos mías para que tome mi pelo largo negro, mi cara y mi ropa, una polera negra de malla y jeans anchos oscuros. Quiero que sea animado, que respire, parpadee, salude y apunte a mis trabajos."
 - **Prompt 2.** "No me convence el estilo de caricatura. Hazlo en pixel art, que se parezca a mí, con un contorno oscuro como en las referencias de personajes pixel art que te mando."
@@ -137,11 +130,9 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
 - **Qué ajusté y por qué.**
   - Pasé de la caricatura al pixel art porque calzaba mejor con la letra pixelada.
   - Mantuve mi ropa real en el avatar para que se pareciera a mí.
- 
-<img width="222" height="520" alt="image" src="https://github.com/user-attachments/assets/861ccd90-67c8-4fa6-a2bc-9cae6e90b56e" />
+  - [ajusta o agrega lo que decidiste tú]
 
-
-### Transiciones de las imágenes en la descripción de cada proyecto
+### 3.3 Transiciones de las imágenes en la descripción de cada proyecto
 
 - **Prompt 1.** "En la ficha de cada proyecto quiero que las fotos de proceso se vean como un acordeón. Al pasar el mouse o hacer clic, la foto elegida se abre a color y las demás quedan angostas y en gris, con una transición suave."
 - **Prompt 2.** "Cuando abro un proyecto desde la lista, quiero que la ventana crezca desde la fila donde hice clic, en vez de aparecer de golpe."
@@ -150,15 +141,13 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
 - **Qué ajusté y por qué.**
   - Pedí que la foto principal de cada proyecto fuera la primera del acordeón y que no se repitiera en el proceso.
   - Pedí que no quedaran márgenes en ningún trabajo, porque las franjas oscuras hacían ver las fotos más chicas.
-  - Pedí quitar la etiqueta "proceso de diseño y fabricación" para que las imágenes tuvieran más protagonismo.
-  - 
-<img width="1181" height="777" alt="image" src="https://github.com/user-attachments/assets/dee44b14-6450-4309-8782-a1df1fbc2a23" />
+  - Pedí quitar la etiqueta "proceso de diseño y fabricación" para que las imágenes tuvieran más protagonismo. [ajusta o agrega lo que decidiste tú]
 
-### Lista de trabajos que muestra la foto
+### 3.4 Lista de trabajos que muestra la foto
 
 - **Prompt.** "Para la sección de trabajos quiero que aplique el código que te doy… quiero que sea el nombre del proyecto, pases el cursor y te salga la foto del proyecto." Le pasé el componente Skiper 53 de Skiper UI.
 - **Qué me entregó.** La lista donde cada trabajo muestra su nombre y, al pasar el cursor, se abre y aparece su foto, hecha sin React para que funcione en mi página.
-- **Qué ajusté y por qué.** Pedí que no se vieran las fotos de los trabajos hasta pasar el cursor, para que la lista quedara limpia. 
+- **Qué ajusté y por qué.** Pedí que no se vieran las fotos de los trabajos hasta pasar el cursor, para que la lista quedara limpia. [ajusta o agrega lo que decidiste tú]
 
 ---
 
@@ -186,7 +175,7 @@ Las decisiones de diseño fueron mías. Qué proyectos mostrar, los referentes, 
 
 Este semestre aprendí que diseñar una interfaz se parece más a prototipar un objeto de lo que pensaba. En el pañol puedo probar, corregir y volver a cortar, y con el código pasó lo mismo, cada versión del portafolio fue un prototipo que tuve que mirar, usar y corregir. Pasar de Figma al código me obligó a pensar en cosas que en el diseño estático no aparecen, como qué pasa en el celular, cuánto demora en cargar una imagen o cómo se mueve un elemento cuando alguien lo toca.
 
-Con Multirealidades me di cuenta de que una misma cámara puede entender cosas muy distintas según cómo se programe, y que la tecnología nos deja ver información que nosotros solos no podríamos descifrar. Con Traductor de bits me quedé con la pregunta de hasta dónde se puede traducir un formato a otro, y con Contrapresión entendí que un juego también puede hablar de algo que pasó en mi país.
+Con Multirealidades me di cuenta de que una misma cámara puede entender cosas muy distintas según cómo se programe, y que la tecnología nos deja ver información que nosotros solos no podríamos descifrar. Con Traductor de bits me quedé con la pregunta de hasta dónde se puede traducir un formato a otro, y con Contrapresión me di cuenta de que el teléfono, que usamos todos los días casi sin pensarlo, puede ser mucho más que una pantalla, y que diseñar cómo se controla algo también es diseñar cómo se siente usarlo.
 
 Documentar mis trabajos en una página web me hizo ordenar mi proceso. Elegir qué fotos mostrar, en qué orden y cómo describirlo me ayudó a entender qué es lo importante de cada pieza.
 
