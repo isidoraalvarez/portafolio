@@ -50,7 +50,7 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 
 ---
 
-## 1. Registro por avance
+## 2. Registro por avance
 
 ### Avance 1 (9 de noviembre)
 
@@ -74,6 +74,8 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
   - **Créditos de colaboradores.** En la ficha de cada proyecto agregué el apartado de créditos con el nombre y el GitHub de mis compañeras, Camila ([github.com/Estrabismx](https://github.com/Estrabismx)) y Dayana ([github.com/dayanapanitrur](https://github.com/dayanapanitrur)). También acredité a Felipe Roa como creador del proyecto original de Multirealidades y a Ann Demeulemeester como autora del diseño original de la Chair Ele, que repliqué. En los proyectos que hice sola el apartado no aparece.
 
 ### Después del Avance 2 (hacia el examen)
+
+Después del Avance 2, además de aplicar las correcciones, decidí cambiar mi diseño porque sentía que no me representaba. Busqué una estética más mía, con pixel art, fotos que saqué yo y una paleta de azules, y estos son los cambios que fui haciendo.
 
 - Cambié las estampillas por un **índice de trabajos** con vista previa por píxeles, porque con 11 proyectos las estampillas saturaban la pantalla.
 - Ordené los trabajos por **categoría** (electrónica, web y diseño de objetos) y por año.
