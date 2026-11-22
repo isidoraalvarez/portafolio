@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isidora Álvarez — portafolio 2026</title>
+  <meta name="description" content="Portafolio de Isidora Álvarez, estudiante de Diseño Industrial. Objetos en madera, electrónica y experiencias web que se usan y se habitan.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Pixelify+Sans:wght@400..700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>document.documentElement.classList.add("js");</script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <canvas id="rastro" class="rastro" aria-hidden="true"></canvas>
+
+  <!-- ===== 1. Barra superior ===== -->
+  <header class="barra">
+    <nav class="tb tb--menu" aria-label="Principal">
+      <a class="tb__logo" href="#inicio">isidora álvarez</a>
+      <span class="tb__sep" aria-hidden="true"></span>
+      <a class="tb__link" href="#trabajos" data-seccion="trabajos">trabajos</a>
+      <a class="tb__link" href="sobre-mi.html">sobre mí</a>
+      <a class="tb__link" href="#contacto" data-seccion="contacto">contacto</a>
+      <span class="tb__espacio"></span>
+      <time class="tb__reloj" data-reloj></time>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== 2. Portada ===== -->
+    <section class="portada" id="inicio">
+      <canvas class="shader-puntos" id="shader-portada" aria-hidden="true"></canvas>
+
+      <div class="cabecera">
+        <span class="mono cabecera__fin">santiago — udp</span>
+      </div>
+
+      <div class="portada__grid">
+        <div class="portada__texto">
+          <h1 class="titular" aria-label="hola, diseño para lo que se usa y se habita">
+            <span class="titular__hola" aria-hidden="true" data-puntos>hola,</span>
+            <span class="titular__linea" aria-hidden="true" data-puntos>diseño para lo que</span>
+            <span class="titular__linea titular__linea--2" aria-hidden="true">
+              <span data-puntos>se</span>
+              <span class="titular__rota">
+                <span class="palabra-caja" data-palabras="usa,habita" title="clic para cambiar">
+                  <span class="palabra" data-puntos data-sufijo=".">usa</span>
+                </span>
+              </span>
+            </span>
+          </h1>
+          <p class="cuerpo portada__bajada">Diseñadora industrial en formación. Trabajo entre lo material y lo digital, con madera, prototipado y electrónica, y creo experiencias interactivas para la web.</p>
+          <div class="botones">
+            <a class="btn btn--primario" href="#trabajos">ver trabajos →</a>
+            <a class="btn btn--secundario" href="sobre-mi.html">sobre mí</a>
+          </div>
+        </div>
+
+        <!-- Escenario del personaje -->
+        <div class="escenario">
+          <span class="globo" data-globo role="status"></span>
+          <div class="personaje" data-personaje tabindex="0" role="button" aria-label="personaje animado de Isidora, haz clic para interactuar"></div>        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== 3. Trabajos ===== -->
+    <section class="seccion trabajos" id="trabajos">
+      <div class="follaje follaje--trabajos" data-follaje="88x60" aria-hidden="true"></div>
+      <div class="trabajos__cab">
+        <h2 class="titulo-xl revelar" data-puntos>trabajos</h2>
+      </div>
+      <div class="filtros" data-filtros role="group" aria-label="Filtrar trabajos por categoría">
+        <button type="button" class="filtro activo" data-filtro="todo" aria-pressed="true">todo</button>
+        <button type="button" class="filtro" data-filtro="electronica" aria-pressed="false">electrónica</button>
+        <button type="button" class="filtro" data-filtro="web" aria-pressed="false">web</button>
+        <button type="button" class="filtro" data-filtro="objetos" aria-pressed="false">diseño de objetos</button>
+      </div>
+
+      <ol class="indice" id="indice" aria-label="Trabajos"></ol>
+      <noscript><p class="mono">Activa JavaScript para ver los trabajos.</p></noscript>
+    </section>
+
+  </main>
+
+  <footer class="pie" id="contacto">
+    <div class="follaje follaje--pie" data-follaje="120x50" aria-hidden="true"></div>
+    <p class="pie__grande"><span data-puntos>contacto</span><span class="pie__estrella">✦</span></p>
+    <div class="pie__datos">
+      <a href="mailto:sintaxis.obj@gmail.com">sintaxis.obj@gmail.com</a>
+      <a href="https://www.instagram.com/desing.studi0/" target="_blank" rel="noopener">@desing.studi0</a>
+      <a href="https://github.com/isidoraalvarez" target="_blank" rel="noopener">github.com/isidoraalvarez</a>
+    </div>
+    <div class="pie__fila">
+      <p class="mono">Isidora Álvarez — portafolio 2026</p>
+      <a class="mono pie__arriba" href="#inicio">volver arriba ↑</a>
+    </div>
+  </footer>
+
+
+  <!-- ===== Detalle de proyecto ===== -->
+  <div class="detalle" id="detalle" hidden>
+    <div class="detalle__fondo" data-cerrar></div>
+    <article class="win win--detalle" role="dialog" aria-modal="true" aria-labelledby="detalle-titulo">
+      <div class="tb">
+        <span class="tb__titulo" data-d-archivo>proyecto</span>
+        <button class="tb__cerrar" type="button" data-cerrar aria-label="cerrar">cerrar ✕</button>
+      </div>
+      <div class="win__cuerpo detalle__cuerpo" data-d-cuerpo></div>
+    </article>
+  </div>
+
+</body>
+</html>
