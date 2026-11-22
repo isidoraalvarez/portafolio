@@ -2,9 +2,9 @@
 
 ## Portafolio 
 
-En mi portafolio veras los trabajos que he hecho durante la carrera de Diseño Industrial y, a través de ellos, cuenta cómo he ido creciendo como diseñadora.
+En mi portafolio verás los trabajos que he hecho durante la carrera de Diseño Industrial y, a través de ellos, cuento cómo he ido creciendo como diseñadora.
 
-Siempre me ha gustado fabricar cosas con las manos. en mi primer año de carrera empece trabajando en lo conceptual como llevar a cambo ideas mezclar conceptos poco a poco empece a meterme en el trabajo manual, ya en mi segundo año empece fuerte con el trabajo en  madera, armando sillas, bancas y objetos que se pueden tocar y usar, como la Chair Ele, la Banca estructural, el Banquito zapatero y Mimus Thenca, una tenca chilena que mueve las alas al jalar de su tirador. en mi tercer año me encontré con la electrónica y descubrí lo entretenido que es hacer sonar algo que una misma construyó, como el Sin-te o la Tostadora inestable. Y en estos ultimos meses llegué a la web, donde aprendí que lo digital también se puede sentir, con proyectos como Multirealidades y Contrapresión.
+Siempre me ha gustado fabricar cosas con las manos. En mi primer año de carrera empecé trabajando en lo conceptual como llevar a cabo ideas mezclar conceptos, poco a poco empecé a meterme en el trabajo manual, ya en mi segundo año empecé fuerte con el trabajo en madera, armando sillas, bancas y objetos que se pueden tocar y usar, como la Chair Ele, la Banca estructural, el Banquito zapatero y Mimus Thenca, una tenca chilena que mueve las alas al jalar de su tirador. En mi tercer año me encontré con la electrónica y descubrí lo entretenido que es hacer sonar algo que una misma construyó, como el Sin-te o la Tostadora inestable. Y en estos últimos meses llegué a la web, donde aprendí que lo digital también se puede sentir, con proyectos como Multirealidades y Contrapresión.
 
 Cada trabajo me enseñó algo y me llevó al siguiente. Este portafolio es mi forma de mostrar ese camino, lo que me gusta y lo que me mueve a diseñar, que al final es crear cosas que se usan y se habitan.
 
@@ -27,7 +27,9 @@ Cada trabajo me enseñó algo y me llevó al siguiente. Este portafolio es mi fo
 
 La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el diseño (`style.css`) y las animaciones (`script.js`). Las fotos están en la carpeta [imagenes](imagenes/) y los videos en [videos portafolio](videos%20portafolio/).
 
-### **Tipografías.** El sitio usa cuatro tipografías, todas de Google Fonts con licencia SIL Open Font License 1.1.
+### **Tipografías:** 
+
+El sitio usa cuatro tipografías, todas de Google Fonts con licencia SIL Open Font License 1.1.
 
 | Tipografía | Dónde la uso |
 |---|---|
@@ -37,7 +39,9 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 | [DM Sans](https://fonts.google.com/specimen/DM+Sans) | Textos de lectura, como la presentación de la portada, la bio y la trayectoria |
 | <img width="537" height="760" alt="image" src="https://github.com/user-attachments/assets/bc996875-3d3f-4ee0-898a-648fa1536eeb" /> |
 
-### **Paleta.** Fondo blanco con tonos de azul, celeste y beige, a partir de una paleta de referencia que me gustó. Le da más blanco y aire a la página.
+### **Paleta:** 
+
+Fondo blanco con tonos de azul, celeste y beige, a partir de una paleta de referencia que me gustó. Le da más blanco y aire a la página.
 
 | Color | Hex | Dónde lo uso |
 |---|---|---|
@@ -72,7 +76,7 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
 ### Avance 2 (16 de noviembre)
 
 **Qué presenté.**
-- Para esta entrega presente la una 3era versión que tenía, habia mantenido la  estética de estampillas con una paleta de colores con mas azules y el gris paso a segundo plano, la página seguia siendo solo una, se veía de corrido, las estampillas las modifique y las hice en una sola columna y para ver los trabajos se deslizaba a la derecha como un carrusel. ninguna de estas versiones lograva sentir mi escencia en ella
+- Para esta entrega presente la una 3era versión que tenía, habia mantenido la  estética de estampillas con una paleta de colores con mas azules y el gris paso a segundo plano, la página seguia siendo solo una, se veía de corrido, las estampillas las modifique y las hice en una sola columna y para ver los trabajos se deslizaba a la derecha como un carrusel. ninguna de estas versiones lograva sentir mi escencia en ella.
 
 | versión 2 | versión 2 |
 |---|---|
@@ -85,7 +89,7 @@ La página está hecha con HTML, CSS y JavaScript. Las dos páginas comparten el
   - Poner los créditos de los colaboradores con quienes hice cada trabajo.
 - **Qué cambié después.**
   - **Imágenes adaptadas al marco.** Algunas fotos no calzaban con su marco, quedaban franjas grises a los lados o el objeto se veía corrido. Ahora la foto principal de cada proyecto se muestra completa en su propia proporción, y en las fotos de proceso el panel abierto toma exactamente la forma de cada foto, sin márgenes y sin recortar el objeto.
-  - **Créditos de colaboradores.** En la ficha de cada proyecto agregué el apartado de créditos con el nombre y el GitHub de mis compañeras, Camila ([github.com/Estrabismx](https://github.com/Estrabismx)) y Dayana ([github.com/dayanapanitrur](https://github.com/dayanapanitrur)). También acredité a Felipe Roa como creador del proyecto original de Multirealidades y a Ann Demeulemeester como autora del diseño original de la Chair Ele, que repliqué. En los proyectos que hice sola el apartado no aparece.
+  - **Créditos de colaboradores.** En la ficha de cada proyecto agregué el apartado de créditos con el nombre y el GitHub de mis compañeras. También acredité a Felipe Roa como creador del proyecto original de Multirealidades y a Ann Demeulemeester como autora del diseño original de la Chair Ele, que repliqué. En los proyectos que hice sola el apartado no aparece.
     
 ### Después del Avance 2 
 
@@ -94,25 +98,22 @@ Después del Avance 2, además de aplicar las correcciones, decidí cambiar mi d
 - Cambié las estampillas por un **índice de trabajos** con vista previa por píxeles, porque con 12 proyectos las estampillas saturaban la pantalla.
 - Ordené los trabajos por **categoría** (electrónica, web y diseño de objetos) y por año.
 - Cada proyecto se abre en una ventana con las fotos de proceso primero y debajo la ficha (año, tipo y materiales o recursos utilizados), la descripción, los créditos y el video.
-- Agregué mi **avatar en pixel art** en la portada y un **cursor de corazón** pixelado.
-- Cambié la paleta a una de azules, con el azul rey como protagonista.
+- Agregué mi **avatar en pixel art** en la portada y un **cursor de corazón** pixelado (Con ayuda de la IA).
+- Cambié la paleta con más azules de protagonistas.
 - Separé **Sobre mí en su propia página** (`sobre-mi.html`), con herramientas, trayectoria y contacto, para que el sitio tenga dos páginas enlazadas.
-- Integré un componente de la librería **Shaders.com** (DotGrid, dentro del filtro Pixelate), una grilla de cuadrados que titila detrás del titular. Usé Pixelate para que los puntos fueran cuadrados, igual que el resto de la estética pixel.
+- Integré un componente de la librería **Shaders.com** (DotGrid, dentro del filtro Pixelate)(Con ayuda de la IA), una grilla de cuadrados que titila detrás del titular. Usé Pixelate para que los puntos fueran cuadrados, igual que el resto de la estética pixel.
 - Cambié la estética a una más editorial, tipo afiche, a partir de nuevas referencias (fotos con trama de puntos, tonos lavanda y celeste lavados, collage). Saqué las ventanas tipo sistema operativo y dejé paneles planos y translúcidos.
 - Los títulos ahora van en una **cursiva pixelada**, inspirada en la estética de píxeles, que va con mis gustos. Uso la fuente Dancing Script (Google Fonts, licencia OFL) y la convierto en píxeles cuadrados con código. Primero probé con Sacramento, pero era tan fina que al pixelarla no se leía. El texto real sigue estando en la página para los lectores de pantalla.
-- En la portada agregué un **collage de fotos de mis trabajos en trama de píxeles cuadrados** (Sin-te, Chair Ele y Lámpara), generado con código a partir de las fotos.
-- Cambié la **paleta** a tonos de azul, celeste, beige y blanco, con más blanco en la página.
-- El fondo de la portada es una **foto mía de una playa, pixelada y con un filtro de los colores de mi paleta** (azul marino en las sombras, azul petróleo en los tonos medios, y celeste y beige en las partes claras), con opacidad baja para que acompañe sin competir con el texto. La pixela el componente Pixelate de Shaders.com (y la misma versión pixelada en CSS si el navegador no tiene WebGPU). Dejé solo la foto, el titular y el personaje, y saqué el collage, el árbol y la grilla para que la imagen se distinga. Antes probé dibujar la foto con letras (ASCII), pero no se reconocía.
+- En la portada agregué un **collage de fotos de mis trabajos en trama de píxeles cuadrados** (Sin-te, Chair Ele y Lámpara), generado con código a partir de las fotos(Que al final termine cambiando).
+- El fondo de la portada es una foto mía de una playa, pixelada y con un filtro de los colores de mi paleta (azul marino en las sombras, azul petróleo en los tonos medios, y celeste y beige en las partes claras), con opacidad baja para que acompañe sin competir con el texto. La pixela el componente Pixelate de Shaders.com (y la misma versión pixelada en CSS si el navegador no tiene WebGPU). Dejé solo la foto, el titular y el personaje, y saqué el collage, el árbol y la grilla para que la imagen se distinga. Antes probé dibujar la foto con letras (ASCII), pero no se reconocía.
 - El fondo de la sección de trabajos ahora es una **foto mía de un tronco**, con un filtro de los colores de la paleta y opacidad baja, en vez del fondo de cuadritos.
 - Agregué dos fotos nuevas y un segundo video a la **Tostadora inestable**. La ficha ahora puede mostrar más de un video.
 - Agrandé la **barra de navegación**. Los links ahora son botones con borde, para que se note que hay que entrar a cada sección, y en el celular quedan visibles en una segunda fila.
-- Ordené el sitio como el portafolio de mi compañero Nicolás Miranda. Al entrar se ve **solo la portada**, y los trabajos aparecen al apretar "ver trabajos" o "trabajos" en el menú, como si fueran otra página.
-- La lista de trabajos ahora muestra **solo el nombre de cada proyecto, y al pasar el cursor la fila se abre y aparece su foto**, con el nombre en una banda blanca abajo. Es una adaptación a JavaScript sin React del componente **Skiper 53 · HoverExpand_002** de Skiper UI (autor Gurvinder Singh, [skiper-ui.com/v1/skiper53](https://skiper-ui.com/v1/skiper53)), que pide atribución en su versión gratuita. En el celular, el primer toque abre la fila y el segundo entra al proyecto.
+- Ordené el sitio como el portafolio. Al entrar se ve **solo la portada**, y los trabajos aparecen al apretar "ver trabajos" o "trabajos" en el menú, como si fueran otra página.
 - Probé dejar el título "trabajos" fijo arriba con la lista pasando por debajo (referente effepinnastudio.com), pero tapaba los trabajos y lo saqué.
-- Agregué **filtros por categoría** sobre la lista de trabajos (todo, electrónica, web y diseño de objetos), inspirada en cómo organiza su portafolio mi compañero Nicolás Miranda.
-- Saqué el **cursor de corazón** y agregué el plano del Banquito zapatero a sus fotos de proceso.
-- Le di **más detalle y sombras al personaje** (cejas, nariz, labios en dos tonos, mejillas, gargantilla, brillo en el pelo y pliegues en el pantalón).
-- Actualicé el Figma con el diseño editorial. Está ordenado según el proceso, en cinco páginas (Boceto, Wireframes, UI Kit, Desktop y Mobile). El boceto es digital y a mano alzada, y los wireframes están en grises y baja fidelidad, con notas de la interacción. El UI kit muestra juntas las cuatro tipografías y la cursiva normal al lado de su versión pixelada. Tiene las variables de color, los estilos de texto y, en su propia mesa de trabajo, los componentes con estados (botón primario y secundario, link de menú, fila del índice, enlace del pie y botón cerrar), todos con auto layout. El prototipo muestra inicio, sobre mí y la ficha de un proyecto en desktop y mobile, con hover en botones y links y navegación entre pantallas.
+- Agregué filtros por categoría sobre la lista de trabajos: **todo, electrónica, web y diseño de objetos**.
+- Le di más detalle y sombras al personaje (cejas, nariz, labios en dos tonos, mejillas, gargantilla, brillo en el pelo y pliegues en el pantalón).
+- Actualicé el Figma con el diseño actual. Está ordenado según el proceso, en cinco páginas: Boceto, Wireframes, UI Kit, Desktop y Mobile. El boceto es digital y a mano alzada, y los wireframes están en grises y baja fidelidad, con notas de la interacción. El UI kit muestra juntas las cuatro tipografías y la cursiva normal al lado de su versión pixelada. Tiene las variables de color, los estilos de texto y, en su propia mesa de trabajo, los componentes con estados, todos con auto layout. El prototipo muestra inicio, sobre mí y la ficha de un proyecto en desktop y mobile, con hover en botones y links y navegación entre pantallas.
   
                                                           **VERSIÓN ACTUAL**
 
@@ -129,6 +130,8 @@ Después del Avance 2, además de aplicar las correcciones, decidí cambiar mi d
 ## 3. Uso de IA
 
 **Herramientas.** Claude, para programar la página y para armar en Figma la interactividad de cómo se ven los trabajos.
+
+**Dónde no usé IA:** Los trabajos que muestro los diseñé y fabriqué yo, sola o con mis compañeras, y las fotos y videos son nuestros. Las fotos de la playa y del tronco que uso de fondo también las saqué yo. La elección de los trabajos, el orden del sitio y la estética fueron decisiones mías. La IA la usé solo como apoyo para programar y para armar la interactividad del prototipo en Figma.
 
 Usé IA en dos partes.
 
