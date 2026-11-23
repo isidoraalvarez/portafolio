@@ -135,7 +135,7 @@ Después del Avance 2, además de aplicar las correcciones, decidí cambiar mi d
 | Lista de trabajos <img width="1180" height="767" alt="image" src="https://github.com/user-attachments/assets/c307643e-706f-4208-9139-76acece8f68a" /> | Ayudarme a adaptar el componente Skiper 53 sin React para que al pasar el cursor por el nombre aparezca la foto | Una base en JavaScript vanilla para abrir la fila con la foto y los filtros por categoría | Integré el código en mi página, ajusté los estilos y definí que mostrara solo el nombre y la foto al pasar el cursor |
 | Figma <img width="1151" height="492" alt="image" src="https://github.com/user-attachments/assets/fe112749-925a-4530-94cc-1699a496200e" /> | Ayuda para configurar la interactividad de la fila de índice de los trabajos | Guía para armar los estados interactivos que muestran la portada del trabajo | Implementé el prototipo, corroboré que funcionara igual que la web y apliqué lo aprendido en el resto de las pantallas |
 
-Importante recalcar que la IA fue un apoyo para agilizar el desarrollo: mientras iba programando, cuando alguna parte se me complicaba o el código no funcionaba como debía, le pedía que identificara el error, me explicara cuál era el problema y cómo corregirlo para aplicarlo y seguir avanzando.
+Importante recalcar que la IA fue un apoyo para agilizar el desarrollo, mientras iba programando, cuando alguna parte se me complicaba o el código no funcionaba como debía, le pedía que identificara el error, me explicara cuál era el problema y cómo corregirlo para aplicarlo y seguir avanzando.
 
 ### Creación del personaje
 
